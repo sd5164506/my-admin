@@ -1,0 +1,31 @@
+article .commit-views.commit .commit-box{
+  cursor: pointer;
+  -webkit-transition-property: color, background-color;
+  -moz-transition-property: color, background-color;
+  -o-transition-property: color;
+  -ms-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+article .commit-views.commit .commit-box a{
+color:#555;
+width:40px;
+display:block;
+}
+article .commit-views.commit .commit-box:hover{
+ background: #00B9BD;
+ }
+article .commit-views.commit .commit-box:hover a{
+  color:#fff;
+  width:40px;
+  display:block;
+}
